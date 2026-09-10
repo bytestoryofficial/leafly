@@ -9,6 +9,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "hono": "^4.13.7"
+    "hono": "^4.13.7",
+    "mongodb": "^7.6.0",
+    "zod": "^4.6.1"
   }
 }
