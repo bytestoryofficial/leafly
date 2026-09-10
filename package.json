@@ -8,7 +8,9 @@
     "build": "turbo run build",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "typecheck": "turbo run typecheck"
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "author": "bytestory.",
   "license": "MIT",
@@ -20,6 +22,7 @@
     }
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/bun": "^1.4.2",
     "eslint": "^10.10.0",
     "eslint-config-prettier": "^10.1.8",
