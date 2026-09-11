@@ -4,8 +4,6 @@ import { Db } from 'mongodb';
 
 import getDb from '@/db/client';
 
-import Plant from '@/db/schemas/plant.schema';
-
 const app = new Hono();
 
 app.use('*', logger());

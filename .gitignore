@@ -147,3 +147,13 @@ vite.config.ts.timestamp-*
 .env
 .env.*
 !.env.example
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# generated native folders
+/ios
+/android
