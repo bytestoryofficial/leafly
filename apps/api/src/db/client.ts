@@ -2,7 +2,7 @@ import { Db, MongoClient } from 'mongodb';
 
 const url: string | undefined = process.env.MONGODB_URI;
 
-if (!url) throw new Error('CLIENT MONGO DB ERROR: MONGODB_URI is not set');
+if (!url) throw new Error('ERR [mongo client]: MONGODB_URI is not set');
 
 const client: MongoClient = new MongoClient(url);
 

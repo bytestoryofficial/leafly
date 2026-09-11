@@ -22,7 +22,7 @@ export const plantSchema = z.object({
     water: z.number().int().min(0).max(100),
     sunlight: z.string(),
     temperature: z.string(),
-    humudity: z.string(),
+    humidity: z.string(),
     soil: z.string(),
   }),
   careTips: z.array(z.string()),
