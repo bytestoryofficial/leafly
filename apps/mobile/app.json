@@ -9,6 +9,10 @@
     "ios": {
       "supportsTablet": true
     },
+    "scheme": "leafly",
+    "experiments": {
+      "typedRoutes": true
+    },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -20,6 +24,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-router"]
   }
 }
