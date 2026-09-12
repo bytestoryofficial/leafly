@@ -17,3 +17,8 @@ minimumReleaseAgeExclude:
   - expo-modules-autolinking@57.0.13
   - expo-modules-core@57.0.18
   - expo@57.0.22
+  - '@expo/ui@57.0.18'
+  - expo-glass-effect@57.0.3
+  - expo-linking@57.0.10
+  - expo-router@57.0.21
+  - expo-symbols@57.0.3
