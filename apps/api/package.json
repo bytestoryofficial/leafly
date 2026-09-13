@@ -10,8 +10,16 @@
     "seed": "bun run scripts/seed.ts"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "^7.10.0",
+    "@prisma/client": "7.10.0",
     "hono": "^4.13.7",
     "mongodb": "^7.6.0",
+    "pg": "^8.23.0",
+    "prisma": "7.10.0",
     "zod": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.23.1",
+    "dotenv": "^17.4.2"
   }
 }
