@@ -1,0 +1,13 @@
+const HASH_OPTIONS: Bun.Password.Argon2Algorithm = {
+  algorithm: 'argon2id',
+  memoryCost: 19456,
+  timeCost: 2,
+};
+
+export function hashPassword(password: string): Promise<string> {
+  return Bun.password.hash(password, HASH_OPTIONS);
+}
+
+export function verifyPassword(password: string, hash: string): Promise<boolean> {
+  return Bun.password.verify(password, hash);
+}
