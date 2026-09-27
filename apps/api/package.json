@@ -10,6 +10,8 @@
     "seed": "bun run scripts/seed.ts"
   },
   "dependencies": {
+    "@hono/zod-validator": "^0.9.1",
+    "@leafly/shared": "workspace:*",
     "@prisma/adapter-pg": "^7.10.0",
     "@prisma/client": "7.10.0",
     "hono": "^4.13.7",
